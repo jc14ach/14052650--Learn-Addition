@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFB379581E5C82BC006EA626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB379571E5C82BC006EA626 /* AppDelegate.swift */; };
+		EFB3795A1E5C82BC006EA626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB379591E5C82BC006EA626 /* ViewController.swift */; };
+		EFB3795D1E5C82BC006EA626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB3795B1E5C82BC006EA626 /* Main.storyboard */; };
+		EFB3795F1E5C82BC006EA626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB3795E1E5C82BC006EA626 /* Assets.xcassets */; };
+		EFB379621E5C82BC006EA626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB379601E5C82BC006EA626 /* LaunchScreen.storyboard */; };
+		EFB3796D1E5C82BC006EA626 /* Kids_Maths_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB3796C1E5C82BC006EA626 /* Kids_Maths_GameTests.swift */; };
+		EFB379781E5C82BC006EA626 /* Kids_Maths_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB379771E5C82BC006EA626 /* Kids_Maths_GameUITests.swift */; };
+		EFB379921E5C82E3006EA626 /* number0.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB379851E5C82E3006EA626 /* number0.png */; };
+		EFB379931E5C82E3006EA626 /* number1.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB379861E5C82E3006EA626 /* number1.png */; };
+		EFB379941E5C82E3006EA626 /* number2.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB379871E5C82E3006EA626 /* number2.png */; };
+		EFB379951E5C82E3006EA626 /* number3.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB379881E5C82E3006EA626 /* number3.png */; };
+		EFB379961E5C82E3006EA626 /* number4.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB379891E5C82E3006EA626 /* number4.png */; };
+		EFB379971E5C82E3006EA626 /* number5.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB3798A1E5C82E3006EA626 /* number5.png */; };
+		EFB379981E5C82E3006EA626 /* number6.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB3798B1E5C82E3006EA626 /* number6.png */; };
+		EFB379991E5C82E3006EA626 /* number7.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB3798C1E5C82E3006EA626 /* number7.png */; };
+		EFB3799A1E5C82E3006EA626 /* number8.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB3798D1E5C82E3006EA626 /* number8.png */; };
+		EFB3799B1E5C82E3006EA626 /* number9.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB3798E1E5C82E3006EA626 /* number9.png */; };
+		EFB3799C1E5C82E3006EA626 /* plate_white.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB3798F1E5C82E3006EA626 /* plate_white.png */; };
+		EFB3799D1E5C82E3006EA626 /* plate.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB379901E5C82E3006EA626 /* plate.png */; };
+		EFB3799E1E5C82E3006EA626 /* play_again.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB379911E5C82E3006EA626 /* play_again.png */; };
+		EFB379A01E5C82F6006EA626 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB3799F1E5C82F6006EA626 /* apple.png */; };
+		EFB379A31E5C8302006EA626 /* star_kids.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB379A11E5C8302006EA626 /* star_kids.png */; };
+		EFB379A41E5C8302006EA626 /* thumbs_up.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB379A21E5C8302006EA626 /* thumbs_up.png */; };
+		EFB379A61E5C835B006EA626 /* DraggedimageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB379A51E5C835B006EA626 /* DraggedimageView.swift */; };
+		EFC0AB7F1E5CAF4B00BCE808 /* childrens-kids-background-26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFC0AB7E1E5CAF4B00BCE808 /* childrens-kids-background-26.jpg */; };
+		EFC0AB811E5CAFEE00BCE808 /* 0df82d896a1ea82caee2a69f581c9024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFC0AB801E5CAFEE00BCE808 /* 0df82d896a1ea82caee2a69f581c9024.jpg */; };
+		EFC0AB831E5CB26E00BCE808 /* Cuadros-Limited-New-2015-Lovely-Dream-House-Prairie-Painting-Wall-Mural-Wallpaper-for-Kid-Living-Room.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFC0AB821E5CB26E00BCE808 /* Cuadros-Limited-New-2015-Lovely-Dream-House-Prairie-Painting-Wall-Mural-Wallpaper-for-Kid-Living-Room.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFB379691E5C82BC006EA626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB3794C1E5C82BC006EA626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB379531E5C82BC006EA626;
+			remoteInfo = "Kids Maths Game";
+		};
+		EFB379741E5C82BC006EA626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB3794C1E5C82BC006EA626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB379531E5C82BC006EA626;
+			remoteInfo = "Kids Maths Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFB379541E5C82BC006EA626 /* Kids Maths Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kids Maths Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB379571E5C82BC006EA626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFB379591E5C82BC006EA626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFB3795C1E5C82BC006EA626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFB3795E1E5C82BC006EA626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFB379611E5C82BC006EA626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFB379631E5C82BC006EA626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB379681E5C82BC006EA626 /* Kids Maths GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kids Maths GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB3796C1E5C82BC006EA626 /* Kids_Maths_GameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kids_Maths_GameTests.swift; sourceTree = "<group>"; };
+		EFB3796E1E5C82BC006EA626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB379731E5C82BC006EA626 /* Kids Maths GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Kids Maths GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB379771E5C82BC006EA626 /* Kids_Maths_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kids_Maths_GameUITests.swift; sourceTree = "<group>"; };
+		EFB379791E5C82BC006EA626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB379851E5C82E3006EA626 /* number0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number0.png; path = ../../number0.png; sourceTree = "<group>"; };
+		EFB379861E5C82E3006EA626 /* number1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number1.png; path = ../../number1.png; sourceTree = "<group>"; };
+		EFB379871E5C82E3006EA626 /* number2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number2.png; path = ../../number2.png; sourceTree = "<group>"; };
+		EFB379881E5C82E3006EA626 /* number3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number3.png; path = ../../number3.png; sourceTree = "<group>"; };
+		EFB379891E5C82E3006EA626 /* number4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number4.png; path = ../../number4.png; sourceTree = "<group>"; };
+		EFB3798A1E5C82E3006EA626 /* number5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number5.png; path = ../../number5.png; sourceTree = "<group>"; };
+		EFB3798B1E5C82E3006EA626 /* number6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number6.png; path = ../../number6.png; sourceTree = "<group>"; };
+		EFB3798C1E5C82E3006EA626 /* number7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number7.png; path = ../../number7.png; sourceTree = "<group>"; };
+		EFB3798D1E5C82E3006EA626 /* number8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number8.png; path = ../../number8.png; sourceTree = "<group>"; };
+		EFB3798E1E5C82E3006EA626 /* number9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = number9.png; path = ../../number9.png; sourceTree = "<group>"; };
+		EFB3798F1E5C82E3006EA626 /* plate_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plate_white.png; path = ../../plate_white.png; sourceTree = "<group>"; };
+		EFB379901E5C82E3006EA626 /* plate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plate.png; path = ../../plate.png; sourceTree = "<group>"; };
+		EFB379911E5C82E3006EA626 /* play_again.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play_again.png; path = ../../play_again.png; sourceTree = "<group>"; };
+		EFB3799F1E5C82F6006EA626 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = ../../apple.png; sourceTree = "<group>"; };
+		EFB379A11E5C8302006EA626 /* star_kids.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = star_kids.png; path = ../../star_kids.png; sourceTree = "<group>"; };
+		EFB379A21E5C8302006EA626 /* thumbs_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = thumbs_up.png; path = ../../thumbs_up.png; sourceTree = "<group>"; };
+		EFB379A51E5C835B006EA626 /* DraggedimageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DraggedimageView.swift; path = ../DraggedimageView.swift; sourceTree = "<group>"; };
+		EFC0AB7E1E5CAF4B00BCE808 /* childrens-kids-background-26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "childrens-kids-background-26.jpg"; path = "../../childrens-kids-background-26.jpg"; sourceTree = "<group>"; };
+		EFC0AB801E5CAFEE00BCE808 /* 0df82d896a1ea82caee2a69f581c9024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0df82d896a1ea82caee2a69f581c9024.jpg; path = ../../0df82d896a1ea82caee2a69f581c9024.jpg; sourceTree = "<group>"; };
+		EFC0AB821E5CB26E00BCE808 /* Cuadros-Limited-New-2015-Lovely-Dream-House-Prairie-Painting-Wall-Mural-Wallpaper-for-Kid-Living-Room.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Cuadros-Limited-New-2015-Lovely-Dream-House-Prairie-Painting-Wall-Mural-Wallpaper-for-Kid-Living-Room.jpg"; path = "../../Cuadros-Limited-New-2015-Lovely-Dream-House-Prairie-Painting-Wall-Mural-Wallpaper-for-Kid-Living-Room.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFB379511E5C82BC006EA626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB379651E5C82BC006EA626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB379701E5C82BC006EA626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFB3794B1E5C82BC006EA626 = {
+			isa = PBXGroup;
+			children = (
+				EFB379561E5C82BC006EA626 /* Kids Maths Game */,
+				EFB3796B1E5C82BC006EA626 /* Kids Maths GameTests */,
+				EFB379761E5C82BC006EA626 /* Kids Maths GameUITests */,
+				EFB379551E5C82BC006EA626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFB379551E5C82BC006EA626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB379541E5C82BC006EA626 /* Kids Maths Game.app */,
+				EFB379681E5C82BC006EA626 /* Kids Maths GameTests.xctest */,
+				EFB379731E5C82BC006EA626 /* Kids Maths GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFB379561E5C82BC006EA626 /* Kids Maths Game */ = {
+			isa = PBXGroup;
+			children = (
+				EFB379A51E5C835B006EA626 /* DraggedimageView.swift */,
+				EFB379571E5C82BC006EA626 /* AppDelegate.swift */,
+				EFB379591E5C82BC006EA626 /* ViewController.swift */,
+				EFB3795B1E5C82BC006EA626 /* Main.storyboard */,
+				EFB3795E1E5C82BC006EA626 /* Assets.xcassets */,
+				EFB379601E5C82BC006EA626 /* LaunchScreen.storyboard */,
+				EFB379631E5C82BC006EA626 /* Info.plist */,
+				EFC0AB821E5CB26E00BCE808 /* Cuadros-Limited-New-2015-Lovely-Dream-House-Prairie-Painting-Wall-Mural-Wallpaper-for-Kid-Living-Room.jpg */,
+				EFC0AB801E5CAFEE00BCE808 /* 0df82d896a1ea82caee2a69f581c9024.jpg */,
+				EFC0AB7E1E5CAF4B00BCE808 /* childrens-kids-background-26.jpg */,
+				EFB379851E5C82E3006EA626 /* number0.png */,
+				EFB379861E5C82E3006EA626 /* number1.png */,
+				EFB379871E5C82E3006EA626 /* number2.png */,
+				EFB379881E5C82E3006EA626 /* number3.png */,
+				EFB379891E5C82E3006EA626 /* number4.png */,
+				EFB3798A1E5C82E3006EA626 /* number5.png */,
+				EFB3798B1E5C82E3006EA626 /* number6.png */,
+				EFB379A11E5C8302006EA626 /* star_kids.png */,
+				EFB3798C1E5C82E3006EA626 /* number7.png */,
+				EFB379911E5C82E3006EA626 /* play_again.png */,
+				EFB3798D1E5C82E3006EA626 /* number8.png */,
+				EFB3798E1E5C82E3006EA626 /* number9.png */,
+				EFB3798F1E5C82E3006EA626 /* plate_white.png */,
+				EFB379901E5C82E3006EA626 /* plate.png */,
+				EFB379A21E5C8302006EA626 /* thumbs_up.png */,
+				EFB3799F1E5C82F6006EA626 /* apple.png */,
+			);
+			path = "Kids Maths Game";
+			sourceTree = "<group>";
+		};
+		EFB3796B1E5C82BC006EA626 /* Kids Maths GameTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB3796C1E5C82BC006EA626 /* Kids_Maths_GameTests.swift */,
+				EFB3796E1E5C82BC006EA626 /* Info.plist */,
+			);
+			path = "Kids Maths GameTests";
+			sourceTree = "<group>";
+		};
+		EFB379761E5C82BC006EA626 /* Kids Maths GameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFB379771E5C82BC006EA626 /* Kids_Maths_GameUITests.swift */,
+				EFB379791E5C82BC006EA626 /* Info.plist */,
+			);
+			path = "Kids Maths GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFB379531E5C82BC006EA626 /* Kids Maths Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB3797C1E5C82BC006EA626 /* Build configuration list for PBXNativeTarget "Kids Maths Game" */;
+			buildPhases = (
+				EFB379501E5C82BC006EA626 /* Sources */,
+				EFB379511E5C82BC006EA626 /* Frameworks */,
+				EFB379521E5C82BC006EA626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kids Maths Game";
+			productName = "Kids Maths Game";
+			productReference = EFB379541E5C82BC006EA626 /* Kids Maths Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFB379671E5C82BC006EA626 /* Kids Maths GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB3797F1E5C82BC006EA626 /* Build configuration list for PBXNativeTarget "Kids Maths GameTests" */;
+			buildPhases = (
+				EFB379641E5C82BC006EA626 /* Sources */,
+				EFB379651E5C82BC006EA626 /* Frameworks */,
+				EFB379661E5C82BC006EA626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB3796A1E5C82BC006EA626 /* PBXTargetDependency */,
+			);
+			name = "Kids Maths GameTests";
+			productName = "Kids Maths GameTests";
+			productReference = EFB379681E5C82BC006EA626 /* Kids Maths GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFB379721E5C82BC006EA626 /* Kids Maths GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFB379821E5C82BC006EA626 /* Build configuration list for PBXNativeTarget "Kids Maths GameUITests" */;
+			buildPhases = (
+				EFB3796F1E5C82BC006EA626 /* Sources */,
+				EFB379701E5C82BC006EA626 /* Frameworks */,
+				EFB379711E5C82BC006EA626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFB379751E5C82BC006EA626 /* PBXTargetDependency */,
+			);
+			name = "Kids Maths GameUITests";
+			productName = "Kids Maths GameUITests";
+			productReference = EFB379731E5C82BC006EA626 /* Kids Maths GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFB3794C1E5C82BC006EA626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = jc14ach;
+				TargetAttributes = {
+					EFB379531E5C82BC006EA626 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EFB379671E5C82BC006EA626 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EFB379531E5C82BC006EA626;
+					};
+					EFB379721E5C82BC006EA626 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EFB379531E5C82BC006EA626;
+					};
+				};
+			};
+			buildConfigurationList = EFB3794F1E5C82BC006EA626 /* Build configuration list for PBXProject "Kids Maths Game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFB3794B1E5C82BC006EA626;
+			productRefGroup = EFB379551E5C82BC006EA626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFB379531E5C82BC006EA626 /* Kids Maths Game */,
+				EFB379671E5C82BC006EA626 /* Kids Maths GameTests */,
+				EFB379721E5C82BC006EA626 /* Kids Maths GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFB379521E5C82BC006EA626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB379621E5C82BC006EA626 /* LaunchScreen.storyboard in Resources */,
+				EFB379981E5C82E3006EA626 /* number6.png in Resources */,
+				EFB3799D1E5C82E3006EA626 /* plate.png in Resources */,
+				EFB379951E5C82E3006EA626 /* number3.png in Resources */,
+				EFC0AB811E5CAFEE00BCE808 /* 0df82d896a1ea82caee2a69f581c9024.jpg in Resources */,
+				EFC0AB831E5CB26E00BCE808 /* Cuadros-Limited-New-2015-Lovely-Dream-House-Prairie-Painting-Wall-Mural-Wallpaper-for-Kid-Living-Room.jpg in Resources */,
+				EFB379971E5C82E3006EA626 /* number5.png in Resources */,
+				EFB379931E5C82E3006EA626 /* number1.png in Resources */,
+				EFB379A01E5C82F6006EA626 /* apple.png in Resources */,
+				EFB3799E1E5C82E3006EA626 /* play_again.png in Resources */,
+				EFB379961E5C82E3006EA626 /* number4.png in Resources */,
+				EFB3795F1E5C82BC006EA626 /* Assets.xcassets in Resources */,
+				EFB3795D1E5C82BC006EA626 /* Main.storyboard in Resources */,
+				EFB3799C1E5C82E3006EA626 /* plate_white.png in Resources */,
+				EFB379991E5C82E3006EA626 /* number7.png in Resources */,
+				EFB379921E5C82E3006EA626 /* number0.png in Resources */,
+				EFC0AB7F1E5CAF4B00BCE808 /* childrens-kids-background-26.jpg in Resources */,
+				EFB379941E5C82E3006EA626 /* number2.png in Resources */,
+				EFB379A41E5C8302006EA626 /* thumbs_up.png in Resources */,
+				EFB3799A1E5C82E3006EA626 /* number8.png in Resources */,
+				EFB379A31E5C8302006EA626 /* star_kids.png in Resources */,
+				EFB3799B1E5C82E3006EA626 /* number9.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB379661E5C82BC006EA626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB379711E5C82BC006EA626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFB379501E5C82BC006EA626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB379A61E5C835B006EA626 /* DraggedimageView.swift in Sources */,
+				EFB3795A1E5C82BC006EA626 /* ViewController.swift in Sources */,
+				EFB379581E5C82BC006EA626 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB379641E5C82BC006EA626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB3796D1E5C82BC006EA626 /* Kids_Maths_GameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFB3796F1E5C82BC006EA626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB379781E5C82BC006EA626 /* Kids_Maths_GameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFB3796A1E5C82BC006EA626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB379531E5C82BC006EA626 /* Kids Maths Game */;
+			targetProxy = EFB379691E5C82BC006EA626 /* PBXContainerItemProxy */;
+		};
+		EFB379751E5C82BC006EA626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFB379531E5C82BC006EA626 /* Kids Maths Game */;
+			targetProxy = EFB379741E5C82BC006EA626 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFB3795B1E5C82BC006EA626 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB3795C1E5C82BC006EA626 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFB379601E5C82BC006EA626 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFB379611E5C82BC006EA626 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFB3797A1E5C82BC006EA626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFB3797B1E5C82BC006EA626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFB3797D1E5C82BC006EA626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kids Maths Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Kids-Maths-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EFB3797E1E5C82BC006EA626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Kids Maths Game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Kids-Maths-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EFB379801E5C82BC006EA626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kids Maths GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Kids-Maths-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kids Maths Game.app/Kids Maths Game";
+			};
+			name = Debug;
+		};
+		EFB379811E5C82BC006EA626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Kids Maths GameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Kids-Maths-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kids Maths Game.app/Kids Maths Game";
+			};
+			name = Release;
+		};
+		EFB379831E5C82BC006EA626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kids Maths GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Kids-Maths-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kids Maths Game";
+			};
+			name = Debug;
+		};
+		EFB379841E5C82BC006EA626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Kids Maths GameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "james.Kids-Maths-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Kids Maths Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFB3794F1E5C82BC006EA626 /* Build configuration list for PBXProject "Kids Maths Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB3797A1E5C82BC006EA626 /* Debug */,
+				EFB3797B1E5C82BC006EA626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB3797C1E5C82BC006EA626 /* Build configuration list for PBXNativeTarget "Kids Maths Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB3797D1E5C82BC006EA626 /* Debug */,
+				EFB3797E1E5C82BC006EA626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB3797F1E5C82BC006EA626 /* Build configuration list for PBXNativeTarget "Kids Maths GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB379801E5C82BC006EA626 /* Debug */,
+				EFB379811E5C82BC006EA626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFB379821E5C82BC006EA626 /* Build configuration list for PBXNativeTarget "Kids Maths GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFB379831E5C82BC006EA626 /* Debug */,
+				EFB379841E5C82BC006EA626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFB3794C1E5C82BC006EA626 /* Project object */;
+}
