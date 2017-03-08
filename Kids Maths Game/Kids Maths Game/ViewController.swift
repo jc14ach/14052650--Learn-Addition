@@ -9,10 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let W = UIScreen.mainScreen().bounds.width
+    let H = UIScreen.mainScreen().bounds.height
+    
+    
 
     var firstNo: [Int] = [2,1,2,4,4,7]
     var secondNo: [Int] = [1,3,2,3,5,2]
-    var awnser: [Int] = [3,5,4,7,9,9]
+    var awnser: [Int] = [3,4,4,7,9,9]
     var questionNo = 0
     
     @IBAction func zero(sender: UIButton) {
@@ -73,9 +78,9 @@ class ViewController: UIViewController {
     func isCorrect(ans: Int){
         if ans == awnser[questionNo] {
         congratulationsView.hidden = false
-            questionNo = questionNo + 1
-            answerLabel.text = String(firstNo[questionNo]) + " + " + String(secondNo[questionNo]) + " = " + String(awnser[questionNo])         }
-            
+            answerLabel.text = String(firstNo[questionNo]) + " + " + String(secondNo[questionNo]) + " = " + String(awnser[questionNo])
+            questionNo = questionNo + 1 }
+
         else {
                 // make question mark red as its wrong
         }

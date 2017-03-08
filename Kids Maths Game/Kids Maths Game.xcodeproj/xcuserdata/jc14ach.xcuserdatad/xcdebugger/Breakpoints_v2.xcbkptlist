@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Kids Maths Game/ViewController.swift"
+            timestampString = "509563851.322394"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kids_Maths_Game.ViewController.firstNo.setter : Swift.Array&lt;Swift.Int&gt;"
+                  moduleName = "Kids Maths Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/james&apos;s%20memory%20stick/Kids%20Maths%20Game/Kids%20Maths%20Game/ViewController.swift"
+                  timestampString = "510669947.098214"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kids_Maths_Game.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Kids_Maths_Game.ViewController"
+                  moduleName = "Kids Maths Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/james&apos;s%20memory%20stick/Kids%20Maths%20Game/Kids%20Maths%20Game/ViewController.swift"
+                  timestampString = "510669947.098311"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "595">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Kids_Maths_Game.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Kids_Maths_Game.ViewController&gt;"
+                  moduleName = "Kids Maths Game"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/james&apos;s%20memory%20stick/Kids%20Maths%20Game/Kids%20Maths%20Game/ViewController.swift"
+                  timestampString = "510669947.098421"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "522">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
